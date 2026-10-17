@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="IM RC 隐私政策：蓝牙、本机记录、云固件访问日志与支持邮件。">
+<title>IM RC · 隐私政策 / Privacy Policy</title>
+<style>
+:root{color-scheme:light dark}*{box-sizing:border-box}body{margin:0;font:17px/1.85 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",sans-serif;background:#f5f7f6;color:#17212b}main{max-width:860px;margin:auto;padding:32px 24px 64px}nav{display:flex;gap:24px;flex-wrap:wrap;border-bottom:1px solid #cad4ce;padding-bottom:20px}a{color:#166344;text-underline-offset:4px;overflow-wrap:anywhere}a:focus-visible{outline:3px solid #d88929;outline-offset:4px}h1{font-size:34px;line-height:1.3;margin-top:36px}h2{font-size:23px;line-height:1.4;margin-top:32px}p,ul{margin:12px 0}li{margin:7px 0}.date{color:#526171}.notice{padding:16px 20px;background:#e5eee8;border-radius:10px}section{scroll-margin-top:20px}hr{border:0;border-top:1px solid #cad4ce;margin:48px 0}@media(prefers-color-scheme:dark){body{background:#141a17;color:#e3ebe6}a{color:#8ed8ad}.date{color:#adbbb2}.notice{background:#24362c}}
+</style>
+</head>
+<body><main>
+<nav aria-label="页面导航"><a href="./">技术支持 / Support</a><a href="#english" lang="en">English</a></nav>
+<article>
+<h1>IM RC 隐私政策</h1>
+<p class="date">更新及生效日期：2026 年 10 月 17 日</p>
+<p>IM RC 由陈秋先提供，是兼容模型车电调的蓝牙调校工具。开发者也是本政策所述由我们处理的个人信息的负责人。隐私与技术支持邮箱：<a href="mailto:180812468@qq.com">180812468@qq.com</a>。</p>
+<p class="notice">App 无注册账号、广告或广告跟踪。蓝牙操作主要在手机与所选设备之间完成；连接兼容设备后的自动云固件检查，以及手动检查、下载，会产生网络请求和访问日志。</p>
+<h2>1. 蓝牙、设备数据及本机记录</h2>
+<p>蓝牙用于扫描和连接你选择的设备、读取遥测与参数，以及执行你发起的调整、保存、校准和固件升级。你可在 iOS 设置中更改蓝牙权限；拒绝后仍可浏览界面，但设备操作需要授权。</p>
+<p>连接历史、界面和语言偏好、固件防回退校验状态保存在本机。连接历史可以在设备管理中逐条“忘记”；这不会恢复电调参数，也不会清除固件安全校验记录。系统备份与恢复取决于你的 iOS/iCloud 设置。App 不向云固件服务附加蓝牙 UUID、连接历史、设备参数或实时遥测。</p>
+<h2>2. 云固件请求和访问日志</h2>
+<p>App 连接兼容设备后可自动检查固件，也支持手动检查和下载。通过系统 HTTPS 向腾讯云 COS 获取签名清单与固件。服务端接触请求 IP、时间、域名、文件路径、请求方法和 User-Agent；访问日志还可包含响应状态、错误、传输字节数、耗时、请求 ID 等技术信息。具体字段取决于请求。固件路径可能体现电调型号和固件版本。</p>
+<p>这些信息用于提供固件功能、安全防护、故障排查及依法履行义务，不用于广告、用户画像或跨 App 跟踪。日志保留原始网络信息，不能视为匿名数据。我们没有从访问 IP 推断位置的功能，也没有接入广告或第三方统计 SDK。</p>
+<h2>3. 存储、访问和保留期限</h2>
+<p>我们管理的访问日志保存在腾讯云广州地域的独立私有存储桶，启用服务端加密；日志桶不开放公共读取或全球加速。访问限于开发者管理账号、必要的云服务角色及经合法授权的服务处理。按日志文件最后修改时间保留 186 天后执行自动清理；云端清理为异步任务，不保证到期瞬间完成。</p>
+<p>固件服务启用了全球加速，网络请求可能经不同国家或地区的节点处理。广州是固件和上述日志桶的存储地域，不代表所有网络处理均发生在广州。腾讯云为自身服务运行、安全、计费及法定义务处理的记录，受其适用条款和法律约束，不受我们日志桶生命周期规则控制。详情见<a href="https://cloud.tencent.com/document/product/301/11470" rel="noopener noreferrer">腾讯云隐私声明</a>。我们不会将服务商内部记录的未知期限表述为 186 天。</p>
+<h2>4. 文件选择与技术支持</h2>
+<p>App 通过系统文件选择器读取你选中的固件，并由你选择导出文件的保存位置。iCloud 等文件服务按各自政策处理文件。</p>
+<p>你主动发送支持邮件时，邮箱地址、邮件内容及附件用于处理请求。一般支持邮件在问题关闭后保留 90 天；依法需保留或涉及未结争议的必要材料除外。邮箱服务由 QQ 邮箱提供。请只提供排障所需信息，并遮住截图中无关个人资料；不要发送密码、验证码或私钥。</p>
+<h2>5. 处理依据及你的权利</h2>
+<p>在适用法律要求下，我们根据提供你请求的功能和支持所需、维护服务安全的正当利益、适用法定义务，或需取得的有效同意处理相关信息。蓝牙系统权限用于控制设备访问，不代表对所有个人信息处理的概括同意。</p>
+<p>你可以通过支持邮箱请求访问、更正、删除你的信息，或依法请求限制处理、反对处理、数据可携带及撤回适用的同意。我们会根据请求性质进行必要且适度的身份核实，并在适用法律规定的期限内处理。法定留存等情形可能限制立即删除；我们会说明原因。你也可以向有管辖权的监管机构投诉。</p>
+<h2>6. 网站及政策更新</h2>
+<p>本支持网站由 GitHub Pages 托管，未嵌入广告、统计脚本或第三方字体。访问网站时，GitHub 可能按其<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener noreferrer">隐私声明</a>处理 IP 等服务运行信息。邮件和外部链接由相应服务提供方处理。</p>
+<p>本工具并非专门面向儿童。未成年人应在监护人指导下使用模型车及设备维护功能；如认为我们收到不应处理的儿童个人信息，请联系上述邮箱。政策变化将在此页面更新日期，重要变化会通过适当方式告知。当前版本以本页及应用内说明为准。</p>
+</article>
+<hr>
+<article id="english" lang="en">
+<h1>IM RC Privacy Policy</h1><p class="date">Updated and effective: October 17, 2026</p>
+<p>IM RC is a Bluetooth utility for compatible RC electronic speed controllers, provided by Chen Qiuxian (陈秋先), responsible for the personal information we process under this policy. Privacy and support: <a href="mailto:180812468@qq.com">180812468@qq.com</a>.</p>
+<h2>Bluetooth and local information</h2><p>The app scans and connects to a device you select, reads telemetry and settings, and performs adjustments, saving, calibration and firmware updates you initiate. Bluetooth permission can be changed in iOS Settings. Without permission you can browse the interface, but device operations require access. Connection history, interface and language preferences, and firmware rollback-protection state stay on the phone. Forgetting a device removes its history entry, not its settings or firmware security records. Backups depend on your iOS/iCloud settings.</p>
+<h2>Cloud firmware and request logs</h2><p>The app may automatically check for updates after connecting to a compatible device; manual checks and downloads are also available. HTTPS requests retrieve signed manifests and firmware from Tencent Cloud COS. They expose the source IP, time, host, resource path, method and User-Agent. Access logs may also include response status, errors, transfer size, timing and request identifiers, depending on the request. Firmware paths may indicate the ESC model and firmware version. Bluetooth UUIDs, connection history, settings and live telemetry are not attached.</p>
+<p>Logs support firmware delivery, security, troubleshooting and legal obligations. They are not used for advertising, profiling or tracking across apps. Raw network information is retained, so these logs are not anonymous. The app has no account, advertisements or third-party analytics SDK, and we do not derive location from IP addresses.</p>
+<h2>Retention and service providers</h2><p>Access logs we manage are stored in a separate private, server-side encrypted Tencent Cloud bucket in Guangzhou, without public read access or global acceleration on the log bucket. Access is limited to the developer's management account, necessary cloud service roles and legally authorized service processing. Files are scheduled for deletion 186 days after their last modification; deletion is asynchronous.</p>
+<p>The firmware service uses global acceleration, so network requests may be processed through nodes in different countries or regions. Not all processing occurs in Guangzhou. Tencent Cloud's own operational, security, billing and legally required records are governed by its terms and applicable law, not by our bucket retention rule. See the <a href="https://cloud.tencent.com/document/product/301/11470">Tencent Cloud privacy statement</a>. We do not claim its independent records have a 186-day retention period.</p>
+<h2>Files and support</h2><p>The system picker grants access to firmware files you select; you choose the export destination. Providers such as iCloud process files under their own policies. If you email support, your address, message and attachments are used to handle your request. Ordinary support mail is retained for 90 days after resolution, except necessary legal retention or unresolved disputes. QQ Mail provides the mailbox service. Send only information needed for troubleshooting, and never passwords, verification codes or private keys.</p>
+<h2>Legal grounds and choices</h2><p>Where applicable, processing relies on providing the functions and support you request, legitimate interests in service security, applicable legal obligations, or valid consent where required. Bluetooth permission is not blanket consent to all processing. Contact us for applicable access, correction, deletion, restriction, objection, portability or consent-withdrawal requests. We will use proportionate identity checks and respond within applicable legal deadlines. We will explain any legal retention that prevents immediate deletion. You may also complain to the competent supervisory authority.</p>
+<h2>Website and changes</h2><p>This support website uses GitHub Pages without embedded advertising, analytics scripts or third-party fonts. GitHub may process IP and operational information under its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">privacy statement</a>. External and email services have their own policies. The app is not directed specifically at children; minors should use RC hardware with a guardian's guidance. Contact us about inappropriate collection of children's information. Updates will be dated here and significant changes communicated as appropriate.</p>
+</article>
+</main></body></html>
